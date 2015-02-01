@@ -1,0 +1,9 @@
+# Login
+
+This functions allow you to log into the website.
+
+##How to use it
+simply type login with your user like this : 
+```sh
+$ login username
+```

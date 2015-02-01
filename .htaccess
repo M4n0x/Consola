@@ -1,0 +1,11 @@
+# Rewrite rule to write an url like /controler/action/som
+<Files ~ "\.ini$">
+Order Allow,Deny
+Deny from all
+</Files>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

@@ -1,0 +1,89 @@
+
+.datepicker-wrapper {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid #a2a2a2;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    list-style: none outside none;
+    margin: 2px 0 0;
+    padding: 10px;
+    position: absolute;
+    min-width: 250px;
+    z-index: 1000;
+    cursor:default;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.datepicker {
+    display: inline-block;
+}
+
+.datepicker-wrapper {
+    text-align: center;
+}
+
+.datepicker-header {
+    padding:5px;
+}
+
+.table-header th {
+    font-weight: normal;
+    font-size: 0.8em;
+    height: 25px;
+    width: 30px;
+}
+
+.table-header td {
+    width: 25px;
+    height: 25px;
+    cursor:pointer;
+}
+
+.datepiker-currMonth:hover {
+    color:white;
+    background-color:#3270e8;
+    //box-shadow: 0 -2px 0 #3f9b3f inset;
+    //border-right: 3px solid #bfbfbf;
+}
+
+.datepiker-prevMonth:hover, .datepiker-nextMonth:hover {
+    color:white !important;
+    background-color:#bfbfbf;
+    box-shadow: 0 -2px 0 #3270e8 inset;
+}
+
+.table-header .datepiker-currMonth {
+    //border-bottom: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+}
+
+.table-header .datepiker-nextMonth, .table-header .datepiker-prevMonth {
+    color:#bfbfbf;
+}
+
+.datepicker-prec, .datepicker-next {
+
+    width:20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.datepicker-prec {
+    float:left;
+}
+
+.datepicker-next {
+    float:right;
+}
+
+.datepicker-prec:hover, .datepicker-next:hover {
+    background-color:#3270e8; // #e5e5e5;
+    color:white;
+}
+
+.datepicker-month {
+    display:inline-block;
+}
